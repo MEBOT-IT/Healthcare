@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif ;
+    box-sizing: border-box;
+    outline:none;
+    color: rgb(0, 0, 0);
+}
+section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(stethoscope-2359757_1920.jpg);
+    background-size:cover;
+    background-position: center;
+    filter: blur(px) brightness(120%);
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:500px;
+    background: rgb(221, 221, 221);
+    border: 3px solid #14bbfd;
+    box-shadow: 0 0 8px rgba(0, 187, 255, 0.6);
+    opacity: 0.6;
+}
+.container form{
+    width: 100%;
+    text-align: center;
+    padding: 25px 20px;
+    font-weight: 900;
+}
+form h1{
+    padding : 10px 0;
+}
+form.id{
+    position: relative;
+    right: 20px;
+}
+id i{
+    position: absolute;
+    font-size: 3px;
+    font-weight: bold;
+    top:50px;
+    right: 20px;
+   
+}
+form input{
+    width:100px;
+    height:60px;
+    margin: 4px;
+    border: 3px solid #14bbfd;
+    border-radius: 3px;
+    background: #ffffff;
+    padding: 0 15px;
+    padding-right: 45px;
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(244, 19, 19);
+}
+form textarea{
+    padding: 5px 15px;
+    border: 1px  solid #000000;
+    border-radius: 3px;
+    background: #fffdfd;
+    color:#000000;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100%;
+    margin: 4px 0;
+}
+form button{
+    margin-top: 5px;
+    border: none;
+    background: #14bbfd;
+    color:rgb(0, 0, 0);
+    padding: 10px 0;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 3px;
+}
+form input:focus,
+form textarea:focus{
+    border: 1px solid #44ff00;
+    color: #000000;
+    transition: all 0.3 ease;
+}
+form input:focus::placeholder,
+form textarea:focus::placeholder{
+    padding-left: 4px;
+    color: #000000;
+    transition: all 0.3 ease;
+}
+form input:focus + i{
+    color: #3e6de3;
+    transition: all 0.3 ease;
+}
+
+
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+    margin: 50px;
+  }
+  
+  .button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: underline;
+  }
+  

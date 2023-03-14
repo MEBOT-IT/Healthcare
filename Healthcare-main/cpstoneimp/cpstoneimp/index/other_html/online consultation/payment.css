@@ -1,0 +1,56 @@
+.transaction{
+background-color: lightskyblue;
+border: 1px solid black;
+border-radius: 30px;
+box-shadow: 5px 10px 25px gray;
+padding: 20px;
+position: relative;
+display: inline-block;
+height: 520px;
+width: 520px;
+text-align: center;
+margin-left: 32%;
+margin-top: 35px;
+}
+
+input[type=text]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+select{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: #0047AB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #1434A4;
+}
+
+body{
+    background-color: #D2E5F6;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

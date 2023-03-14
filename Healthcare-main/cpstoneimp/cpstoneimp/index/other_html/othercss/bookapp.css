@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.contm {
+  display: flex;
+}
+.c2 {
+  background-color: #2e4f4f;
+}
+#cont {
+  padding: 15px;
+}
+.ming {
+  flex: 1;
+}
+#cont {
+  display: inline;
+  font-family: "Tilt Neon", cursive;
+}
+.inst {
+  font-family: "Tilt Neon", cursive;
+}
+.ftex {
+  font-family: "Poppins", sans-serif;
+}
+.mtext {
+  font-weight: 100px;
+
+  font-family: "Poppins", sans-serif;
+}
+.as {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
