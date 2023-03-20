@@ -1,0 +1,10 @@
+{
+  "name": "appointment",
+  "version": "1.0.0",
+  "description": "appointform",
+  "main": "index.js",
+  "start":"node appoint.js"
+  
+  
+  
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #007bff;
+}
+h1{
+    color: #ffffff;
+    font-family: sans-serif;
+    color: #dfe5f3;
+        text-decoration: none;
+        background-image: linear-gradient(rgb(91, 255, 36), rgb(176, 251, 188));
+        background-size: 100% 6px;
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.full-boxer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.comment-box{
+    width: 500px;
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+}
+
+.Profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile-image{
+    width: 70px;
+    height: 70px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.Name strong{
+    color: black;
+    font-size: 18px;
+}
+
+.Name span{
+    color: gray;
+    margin-top: 2px;
+}
+
+.comment p{
+    color: black;
+}
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+    margin: 20px;
+  }
+  
+  .button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+
+
+ 

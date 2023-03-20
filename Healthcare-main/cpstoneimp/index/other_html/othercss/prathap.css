@@ -1,0 +1,28 @@
+label{
+  color: rgb(11, 1, 1);
+  height: 5px;
+  width: 2px;
+  font-weight: 300;
+}
+button{
+  border-width: 1px;
+  border-radius: 2px;
+  background-color: rgb(46, 53, 203);
+  color: white;
+}
+
+textarea{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  word-spacing: normal;
+}
+input{
+  border-radius: 20px;
+}
+html{
+  background-image: url(https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61802.jpg?size=626&ext=jpg&ga=GA1.2.1865225237.1675686806&semt=ais);
+}
+h4{
+  font-family: Georgia;
+}

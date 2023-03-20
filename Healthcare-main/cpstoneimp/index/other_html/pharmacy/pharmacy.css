@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+*{
+    background-image: url("https://www.shutterstock.com/image-vector/online-pharmacy-medicine-concept-medical-260nw-1650122491.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover;
+}
+    h1{
+        color: black;
+        background-color: aqua;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        font-size: larger;
+    }
+
+
+
+
+
+
+
+  

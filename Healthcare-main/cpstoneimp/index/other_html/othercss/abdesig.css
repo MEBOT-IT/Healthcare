@@ -1,0 +1,22 @@
+h1 {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  flex-direction: row;
+  color: green;
+  font-size: 60px;
+}
+
+p {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  flex-direction: row;
+  color: dodgerblue;
+  font-size: 30px;
+  background-image: url("images.jpeg");
+}
+
+* {
+  background-color: lightcyan;
+}
