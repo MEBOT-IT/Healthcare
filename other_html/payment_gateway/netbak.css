@@ -1,0 +1,37 @@
+
+    *{
+        margin: 0;
+        border: none;
+        padding: 0;
+        outline: none;
+        transition: all .5s;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        padding: 25px;
+        background: linear-gradient(to right,white,black,white);
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .container form{
+        width: 700px;
+        padding: 15px;
+        background-color: white;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    text-align: center;
+
+    }
+    .container form .box{
+        padding: 15px;
+        font-size: 25px;
+        background-color: lightslategray;
+    }
+    .container form .box input{
+        text-align: center;
+        height: 35px;
+        width: 100%;
+    }

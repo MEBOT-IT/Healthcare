@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    border: none;
+    padding: 0;
+    outline: none;
+    transition: all .5s;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    padding: 25px;
+    background: linear-gradient(to right,white,deepskyblue,white);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container form{
+    width: 700px;
+    padding: 15px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container form .head{
+    display: flex;
+    background-color: lightslategray;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    justify-content: left;
+    gap: 225px;
+}
+.container form .box .img{
+    width: 150px;
+    height: 150px;
+    background-image: url(images/img10.png);
+    background-size: cover;
+}
+.container form .box{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    font-size: 20px;
+
+}
+.container form .box .detail{
+    display: block;
+    padding: 20px;
+}
+.container form .box .detail div{
+    display: block;
+}
+.container form .box1 span{
+   
+   display: block;
+   text-align: left;
+   font-size: 20px;
+}
+.container form .box1 .total{
+    display: flex;
+}
+.container form .box2{
+    width: 100%;
+   
+    padding: 5px;
+    
+}
+.container form .box2 input{
+    height: 40px;
+    width: 100%;
+    background-color: deepskyblue;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+
+
+}

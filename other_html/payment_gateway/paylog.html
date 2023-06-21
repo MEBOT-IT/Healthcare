@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="paylog.css" />
+  </head>
+  <body>
+    <center><h2>Get Your Bill</h2></center>
+    <div class="loginpage">
+      <div class="form">
+        <form class="login_form" action="bill.html" onsubmit="show()">
+          <input type="text" class="box" id="box1" placeholder="Patient ID" /><br>
+          <input type="password" class="box" id="box2" placeholder="Password" />
+         <input type="submit" value="Fetch" class="button">
+         <br>
+         <br>
+       <input type="button" class="button" value="Back" onclick="pervious()">
+         
+        </form>
+      </div>
+    </div>
+    <script>
+      function pervious(){
+        window.history.go(-1)
+       }
+      function show(){
+        var id=document.getElementById("box1").value;
+        var pwd=document.getElementById("box2").value;
+
+      if(id.length<1){
+        alert("Enter the id please ");
+      }else if(pwd.length<6){
+        alert("Password should be minimum 6 character");
+      }
+      else if(id=="xyz123" && pwd==123456){
+        alert("welcome");
+       }
+       else{
+        alert("Please check user id and password");
+       }      
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+html{
+  background-color: cornflowerblue;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #003366;
+  text-decoration: none;
+}
+
+section {
+  padding: 10px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+margin: 5px;;
+max-width: 100%;
+height: auto;
+border-radius: 20px;
+display: inline-block;
+border: 5px solid rgb(49, 6, 244); /* Add a black border with a thickness of 3 pixels */
+box-shadow: 7px 5px 20px rgb(2, 107, 244); /* Add a subtle shadow effect (20px) is used to spreed color less opacity*/
+transition: all 0.3s ease-in-out;
+   
+}
+li{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: blue;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  justify-content: center;
+  
+}
+input {/*input boxes*/
+  width: 20%;
+  outline: none;
+  border: 1px solid #090908;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #d5d4d4;/*input value color*/
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+footer
+{
+  background-color: #003366;
+  color: white;
+  padding: 10px;
+}
+
+

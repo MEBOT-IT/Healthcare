@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.hea {
+  width: 100%;
+  height: 300px;
+  background-color: #00425a;
+}
+.appoin {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+}
+.contm {
+  display: flex;
+  background-color: #1f8a70;
+}
+#imgi {
+  width: 900px;
+  height: 700px;
+}
+.c2 {
+  background-color: #2e4f4f;
+}
+label {
+  font-size: 25px;
+}
+#cont {
+  padding: 15px;
+  margin-top: 70px;
+  font-size: large;
+  width: 800px;
+  height: 900px;
+  padding-left: 90px;
+}
+.ming {
+  flex: 1;
+}
+#cont {
+  display: inline;
+  font-family: "Tilt Neon", cursive;
+}
+.inst {
+  font-family: "Tilt Neon", cursive;
+}
+.ftex {
+  font-family: "Poppins", sans-serif;
+}
+.mtext {
+  font-weight: 100px;
+
+  font-family: "Poppins", sans-serif;
+}
+.as {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.ins {
+  margin-top: 120px;
+  margin-left: 150px;
+}

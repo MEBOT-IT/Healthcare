@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <link rel="stylesheet" href="bill.css">
+</head>
+<body>
+    <div class="container">
+        <form action="payhome2.html" onsubmit="show()">
+            <div class="head">
+                <a href="paylog.html"><h2><< Back</h2></a>
+                <h2>Bill</h2>
+            </div>
+            <br>
+            <hr size="5" color="lightgray">
+            <br>
+            <div class="box">
+                <div class="img">
+
+                </div>
+                <div class="detail">
+                    <div>
+                    <span>Patient ID : </span>
+                    <span id="pid">xyz1234</span>
+                </div>
+                <div>
+                    <span>Name : </span>
+                    <span id="name">Mr.Panda</span>
+                </div>
+                <div>
+                    <span>DOB : </span>
+                    <span id="dob">05-03-2000</span>
+                </div>
+                <div>
+                    <span>Address : </span>
+                    <span id="addres">Chennai</span>
+                </div>
+                <div>
+                    <span>Phone : </span>
+                    <span id="phone">8190017144</span>
+                </div>
+                </div>
+
+            </div>
+            <br>
+            <hr size="5" color="lightgray"><br>
+            <div class="box1">
+               <span> consultation fees : 1000</span>
+               <span>lab fees : 500</span>
+               <span> Medicine : 800</span><br><br>
+               <div class="total">
+                  <span>  Total : </span><span id="total"> 2300</span>
+               </div>
+
+            </div>
+            <br>
+            <hr size="5" color="lightgray"><br>
+            <div class="box2">
+                <input type="submit" value="Pay">
+            </div>
+        </form>
+    </div>
+    <script>
+        function show(){
+            var amt=document.getElementById("total").innerHTML;
+            var ph=document.getElementById("phone").innerHTML;
+            localStorage.setItem("amount",amt);
+            localStorage.setItem("phone",ph);
+
+            window.location.href="summary.html";
+           
+        }
+
+    </script>
+</body>
+</html>
